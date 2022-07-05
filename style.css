@@ -15,6 +15,7 @@ h1 {
 .half-width {
     width: 50%;
     padding-left: 10%;
+
 }
 
 .half-width img {
@@ -54,10 +55,35 @@ section {
     background-position: right;
 }
 
-.exprience-loaded {
-    display: flex;
-}
+
 
 .color-add {
     color: orange;
+}
+
+
+.exprience-item {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack {
+    border-left: 7px solid blueviolet;
+}
+
+#baby-stack {
+    border-left: 7px solid blueviolet;
+}
+
+.exprience-loaded {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+footer P {
+    text-align: center;
 }
